@@ -1,0 +1,168 @@
+* {
+    margin-top:10;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc3d7;
+}
+
+.login {
+    background-color: #ffc0d9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgb(185, 102, 102);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #d63384;
+    font-size: 24px;
+}
+
+p {
+    color: #d2849a;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #d63384;
+    font-size: 16px;
+    background-color: #ffe6f0;
+    color: #d63384;
+}
+
+input::placeholder {
+    color: #d63384;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #d63384;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e05b7a;
+    margin-bottom: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d04661;
+}
+
+button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.login-btn {
+    background-color: #e05b7a;
+}
+
+.google-login-btn {
+    background-color: #e05b7a;
+}
+
+.instagram-login-btn {
+    background-color: #e05b7a;
+}
+
+.instagram-login-btn .a {
+    background-color: #e05b7a;
+}
+
+
+.separator {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #f08d8d;
+    position: relative;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #d67d7d;
+}
+
+.separator::before {
+    left: 0;
+}
+
+.separator::after {
+    right: 0;
+}
+
+a.forgot-password {
+    font-size: 14px;
+    color: #d63384;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: block;
+}
+
+a.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #ad8e9e;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+.login-btn:hover,
+.google-login-btn:hover,
+.facebook-login-btn:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
